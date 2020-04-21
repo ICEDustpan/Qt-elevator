@@ -6,6 +6,9 @@ MainWindow::MainWindow(QWidget *parent) :
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
+    //移除边框
+    setWindowFlags(Qt::FramelessWindowHint);
 }
 
 MainWindow::~MainWindow()
