@@ -1,5 +1,6 @@
 <RCC>
     <qresource prefix="/gif">
         <file>number.gif</file>
+        <file>prompt.gif</file>
     </qresource>
 </RCC>

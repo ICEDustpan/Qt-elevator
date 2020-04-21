@@ -18,6 +18,13 @@ MainWindow::MainWindow(QWidget *parent) :
     ui->number->setMovie(movie_number);                     //指定数据显示在number控件上面
     movie_number->start();                                  //开始播放
 
+
+
+    /*显示向上向下功能*/
+    QMovie *movie_prompt = new QMovie(":/gif/prompt.gif");  //播放资源文件 gif 路径的prompt.gif
+    ui->prompt->setMovie(movie_prompt);                     //指定数据显示在prompt控件上面
+    movie_prompt->start();                                  //开始播放
+
 }
 
 MainWindow::~MainWindow()
