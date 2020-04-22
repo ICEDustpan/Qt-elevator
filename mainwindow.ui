@@ -121,7 +121,7 @@
 font: 20pt &quot;Tibetan Machine Uni&quot;;</string>
     </property>
     <property name="text">
-     <string>8</string>
+     <string/>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
@@ -141,6 +141,26 @@ font: 20pt &quot;Tibetan Machine Uni&quot;;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>250</y>
+      <width>260</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(255, 255, 255);
+font: 16pt &quot;Tibetan Machine Uni&quot;;</string>
+    </property>
+    <property name="text">
+     <string>AVDISPLAY</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
     </property>
    </widget>
   </widget>
