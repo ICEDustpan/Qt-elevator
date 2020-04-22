@@ -38,7 +38,7 @@ MainWindow::MainWindow(QWidget *parent) :
 void MainWindow::timerUpdate(void)
 {
     QDateTime time = QDateTime::currentDateTime();//获取系统时间
-    QString str = time.toString("yyyy-MM-dd hh:mm:ss dddd");//显示时间格式
+    QString str = time.toString("yyyy-MM-dd hh:mm:ss");//显示时间格式
     ui->time->setText(str);//将时间显示在time这个Qlabel上面
 }
 

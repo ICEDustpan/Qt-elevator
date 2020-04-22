@@ -113,12 +113,12 @@
       <x>220</x>
       <y>72</y>
       <width>260</width>
-      <height>35</height>
+      <height>30</height>
      </rect>
     </property>
     <property name="styleSheet">
      <string notr="true">color: rgb(255, 255, 255);
-font: 14pt &quot;Tibetan Machine Uni&quot;;</string>
+font: 20pt &quot;Tibetan Machine Uni&quot;;</string>
     </property>
     <property name="text">
      <string/>
