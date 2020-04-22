@@ -21,11 +21,19 @@ MainWindow::MainWindow(QWidget *parent) :
     movie_number->start();                                  //开始播放
 
 
-
     /*显示向上向下功能*/
     QMovie *movie_prompt = new QMovie(":/gif/prompt.gif");  //播放资源文件 gif 路径的prompt.gif
     ui->prompt->setMovie(movie_prompt);                     //指定数据显示在prompt控件上面
     movie_prompt->start();                                  //开始播放
+
+
+
+    /*显示刷脸功能*/
+    QMovie *movie_face = new QMovie(":/gif/face.gif");  //播放资源文件 gif 路径的face.gif
+    ui->face->setMovie(movie_face);                       //指定数据显示在face控件上面
+    movie_face->start();
+
+
 
     /*实时获取时间 新建一个定时器*/
     QTimer *timer = new QTimer(this);

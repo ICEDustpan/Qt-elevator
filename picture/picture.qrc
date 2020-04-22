@@ -4,5 +4,6 @@
         <file>prompt.gif</file>
         <file>temperature.png</file>
         <file>humidity.png</file>
+        <file>face.gif</file>
     </qresource>
 </RCC>

@@ -121,13 +121,26 @@
 font: 20pt &quot;Tibetan Machine Uni&quot;;</string>
     </property>
     <property name="text">
-     <string/>
+     <string>8</string>
     </property>
     <property name="alignment">
      <set>Qt::AlignCenter</set>
     </property>
     <property name="wordWrap">
      <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="face">
+    <property name="geometry">
+     <rect>
+      <x>285</x>
+      <y>115</y>
+      <width>130</width>
+      <height>130</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
