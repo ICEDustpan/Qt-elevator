@@ -2,5 +2,7 @@
     <qresource prefix="/gif">
         <file>number.gif</file>
         <file>prompt.gif</file>
+        <file>temperature.png</file>
+        <file>humidity.png</file>
     </qresource>
 </RCC>
